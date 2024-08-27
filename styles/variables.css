@@ -11,6 +11,7 @@
   /* Цвета */
   --background-color: #fff;
   --accent-color: #000;
+  --mix-blend-mode: #fff;
 
   /* Фон */
   --background-image: repeating-linear-gradient(
@@ -31,4 +32,8 @@
 
   /* Эффекты  */
   --label-stroke-color: #fff;
+
+  /* Сердце */
+  --contour: #000;
+  --heart-is-blurry: #ff0000;
 }

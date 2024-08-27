@@ -12,6 +12,7 @@
   /* Цвета */
   --background-color: #fff;
   --accent-color: #000;
+  --mix-blend-mode: #fff;
 
   /* Фон */
   --background-image: repeating-linear-gradient(
@@ -31,6 +32,10 @@
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
   /* Эффекты  */
   --label-stroke-color: #fff;
+
+  /* Сердце */
+  --contour: #000;
+  --heart-is-blurry: #ff0000;
 }
 
 :root.theme-dark {
@@ -41,6 +46,7 @@
   /* Цвета */
   --background-color: #000;
   --accent-color: #00cc14;
+  --mix-blend-mode: #00cc14;
 
   /* Фон */
   --background-image: repeating-linear-gradient(
@@ -58,8 +64,13 @@
       transparent 4px
     ),
     linear-gradient(to bottom, #007f0c 1%, #004306 100%);
+
   /* Эффекты  */
   --label-stroke-color: #000;
+
+  /* Сердце */
+  --contour: #00cc14;
+  --heart-is-blurry: #ff0000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -71,6 +82,7 @@
     /* Цвета */
     --background-color: #000;
     --accent-color: #00cc14;
+    --mix-blend-mode: #00cc14;
 
     /* Фон */
     --background-image: repeating-linear-gradient(
@@ -88,7 +100,12 @@
         transparent 4px
       ),
       linear-gradient(to bottom, #007f0c 1%, #004306 100%);
+
+    /* Эффекты  */
+    --label-stroke-color: #000;
+
+    /* Сердце */
+    --contour: #00cc14;
+    --heart-is-blurry: #ff0000;
   }
-  /* Эффекты  */
-  --label-stroke-color: #000;
 }
