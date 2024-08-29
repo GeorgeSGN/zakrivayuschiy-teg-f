@@ -115,7 +115,6 @@
   font-size: 18px;
   font-variation-settings: "wght" var(--card-title-weight);
   padding: 6px 10px;
-  letter-spacing: 0.02em;
 }
 
 .card__container {
@@ -168,7 +167,6 @@
 .card__text {
   font-size: 18px;
   line-height: 21px;
-  letter-spacing: 0.05em;
 }
 
 .card__click {
